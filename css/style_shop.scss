@@ -1,0 +1,178 @@
+@import "vwstyle";
+body,html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: vw(170);
+    background: #ffc84b;
+    article{
+        display: flex;
+        padding: 0 20px;
+        box-sizing: border-box;
+        .text-size{
+            font-size: vw(40);
+        }
+        &:nth-child(1){
+            height: vw(80);
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            position: relative;
+            section{
+                display: flex;
+                align-items: center;
+            }
+            span{
+                font-weight: bolder;
+                font-size: vw(36);
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        &:nth-child(2){
+            width: vw(710);
+            height: vw(70);
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 4px;
+            color: #a5a5a3;
+            display: flex;
+            align-items: center;
+            i{
+                color: #666;
+            }
+        }
+    }
+}
+nav{
+    height: vw(110);
+    background: #ffc84b;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    li{
+        padding: 0 vw(26);
+        flex-shrink: 0;
+        a{
+            color: #5c523b;
+            font-size: vw(30);
+            &:hover{
+                font-weight: bolder;
+                color: #333333;
+                border-bottom: 4px solid #333333;
+            }
+            
+        }
+        &:nth-child(1) a{
+            font-weight: bolder;
+            color: #333333;
+            border-bottom: 4px solid #333333;
+        }
+        // &:nth-child{
+            
+        // }
+    }
+}
+main{
+    flex: 1;
+    overflow: auto;
+    .section1_content{
+        width: vw(690);
+        margin: 0 auto;
+    }
+    .section2_content{
+        padding: vw(40) vw(20) 0 vw(20);
+        hgroup{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: vw(26);
+            h2{
+                font-size: vw(36);
+                color: #333333;
+            }
+            h5{
+                font-size: vw(22);
+                color: #797979;
+                padding: vw(12) vw(40);
+                background: #fafafa;
+                border-radius: 20px;
+
+            }
+        }
+        article{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #f5f5f5;
+            width: vw(690);
+            figure{
+                padding: vw(20);
+                width: 33.33%;
+                box-sizing: border-box;
+                p{
+                    color: #999999;
+                    &:nth-child(2){
+                        font-size: vw(20);
+                        span{
+                            color:#ff4646;
+                            font-size: vw(36);
+                            font-weight: bolder;
+                            mark{
+                                color: #ff4646;
+                                background: #fff;
+                            }
+                        }
+                    }
+                    &:nth-child(3){
+                        color: #333333;
+                        font-size:vw(24);
+
+                    }
+                    &:nth-child(4){
+                    font-size: vw(12);
+                    }
+                }
+            }
+        }
+        
+
+    }
+}
+footer{
+    height: vw(98);
+    background: #f9edf0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // box-sizing: border-box;
+    // border-top: 1px solid #666;
+    p{
+        a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #a9a6a6;
+            &:hover{
+                color:#ffc53f;
+                
+            }
+            &:hover span{
+                color:#333333;
+                
+            }
+            font-size: vw(20);
+            .text-size{
+                font-size: vw(40);
+            }
+        }
+        &:nth-child(2) a i{
+            color:#ffc53f;
+        }
+        &:nth-child(2) a span{
+            color:#333333;
+        }
+    }
+}

@@ -1,0 +1,197 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 22.66667vw;
+  background: #ffc84b;
+}
+
+header article {
+  display: flex;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+header article .text-size {
+  font-size: 5.33333vw;
+}
+
+header article:nth-child(1) {
+  height: 10.66667vw;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+}
+
+header article:nth-child(1) section {
+  display: flex;
+  align-items: center;
+}
+
+header article:nth-child(1) span {
+  font-weight: bolder;
+  font-size: 4.8vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+header article:nth-child(2) {
+  width: 94.66667vw;
+  height: 9.33333vw;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 4px;
+  color: #a5a5a3;
+  display: flex;
+  align-items: center;
+}
+
+header article:nth-child(2) i {
+  color: #666;
+}
+
+nav {
+  height: 14.66667vw;
+  background: #ffc84b;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  padding: 0 3.46667vw;
+  flex-shrink: 0;
+}
+
+nav li a {
+  color: #5c523b;
+  font-size: 4vw;
+}
+
+nav li a:hover {
+  font-weight: bolder;
+  color: #333333;
+  border-bottom: 4px solid #333333;
+}
+
+nav li:nth-child(1) a {
+  font-weight: bolder;
+  color: #333333;
+  border-bottom: 4px solid #333333;
+}
+
+main {
+  flex: 1;
+  overflow: auto;
+}
+
+main .section1_content {
+  width: 92vw;
+  margin: 0 auto;
+}
+
+main .section2_content {
+  padding: 5.33333vw 2.66667vw 0 2.66667vw;
+}
+
+main .section2_content hgroup {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.46667vw;
+}
+
+main .section2_content hgroup h2 {
+  font-size: 4.8vw;
+  color: #333333;
+}
+
+main .section2_content hgroup h5 {
+  font-size: 2.93333vw;
+  color: #797979;
+  padding: 1.6vw 5.33333vw;
+  background: #fafafa;
+  border-radius: 20px;
+}
+
+main .section2_content article {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #f5f5f5;
+  width: 92vw;
+}
+
+main .section2_content article figure {
+  padding: 2.66667vw;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+
+main .section2_content article figure p {
+  color: #999999;
+}
+
+main .section2_content article figure p:nth-child(2) {
+  font-size: 2.66667vw;
+}
+
+main .section2_content article figure p:nth-child(2) span {
+  color: #ff4646;
+  font-size: 4.8vw;
+  font-weight: bolder;
+}
+
+main .section2_content article figure p:nth-child(2) span mark {
+  color: #ff4646;
+  background: #fff;
+}
+
+main .section2_content article figure p:nth-child(3) {
+  color: #333333;
+  font-size: 3.2vw;
+}
+
+main .section2_content article figure p:nth-child(4) {
+  font-size: 1.6vw;
+}
+
+footer {
+  height: 13.06667vw;
+  background: #f9edf0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #a9a6a6;
+  font-size: 2.66667vw;
+}
+
+footer p a:hover {
+  color: #ffc53f;
+}
+
+footer p a:hover span {
+  color: #333333;
+}
+
+footer p a .text-size {
+  font-size: 5.33333vw;
+}
+
+footer p:nth-child(2) a i {
+  color: #ffc53f;
+}
+
+footer p:nth-child(2) a span {
+  color: #333333;
+}
